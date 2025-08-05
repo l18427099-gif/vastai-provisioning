@@ -22,20 +22,35 @@ NODES=(
 )
 
 WORKFLOWS=(
-
+    "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/templates/flux1_krea_dev.json"
 )
 
 CHECKPOINT_MODELS=(
     #"https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
 )
 
+CLIP_MODELS=(
+
+)
+
+TEXT_ENCODERS=(
+    "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors?download=true"
+    "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors?download=true"
+)
+
+DIFFUSION_MODELS=(
+    "https://huggingface.co/black-forest-labs/FLUX.1-Krea-dev/resolve/main/flux1-krea-dev.safetensors"
+)
+
 UNET_MODELS=(
 )
 
 LORA_MODELS=(
+    "https://civitai.com/api/download/models/2080589?type=Model&format=SafeTensor"
 )
 
 VAE_MODELS=(
+    "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors?download=true"
 )
 
 ESRGAN_MODELS=(
@@ -57,6 +72,15 @@ function provisioning_start() {
     provisioning_get_files \
         "${COMFYUI_DIR}/models/unet" \
         "${UNET_MODELS[@]}"
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/diffusion_models" \
+        "${DIFFUSION_MODELS[@]}"
+   provisioning_get_files \
+        "${COMFYUI_DIR}/models/clip" \
+        "${CLIP_MODELS[@]}"
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/text_encoders" \
+        "${TEXT_ENCODERS[@]}"
     provisioning_get_files \
         "${COMFYUI_DIR}/models/lora" \
         "${LORA_MODELS[@]}"
