@@ -3,6 +3,8 @@
 source /venv/main/bin/activate
 COMFYUI_DIR=${WORKSPACE}/ComfyUI
 
+printenv
+
 # Packages are installed after nodes so we can fix them...
 
 APT_PACKAGES=(
