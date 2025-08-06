@@ -202,7 +202,7 @@ function provisioning_download() {
         wget -nc --content-disposition --show-progress -e dotbytes="${3:-4M}" -P "$2" "$1?token=$auth_token"
     fi
     if [[ ! -n $auth_token ]];then
-        printf "Download token (HF or CIVITAI)  not provided."
+        wget -nc --content-disposition --show-progress -e dotbytes="${3:-4M}" -P "$2" "$1"
     fi
 }
 
