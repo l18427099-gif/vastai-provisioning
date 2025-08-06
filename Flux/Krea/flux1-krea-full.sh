@@ -24,6 +24,7 @@ NODES=(
 
 WORKFLOWS=(
     "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/templates/flux1_krea_dev.json"
+    "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Flux/Workflow/FluxDev_Checkpoint_Lora.json"
 )
 
 CHECKPOINT_MODELS=(
