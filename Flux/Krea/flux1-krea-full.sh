@@ -16,10 +16,11 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    "https://github.com/ltdrdata/ComfyUI-Manager"
-    "https://github.com/cubiq/ComfyUI_essentials"
-    "https://github.com/rgthree/rgthree-comfy"
+    "https://github.com/Comfy-Org/ComfyUI-Manager.git"
+    "https://github.com/cubiq/ComfyUI_essentials.git"
+    "https://github.com/rgthree/rgthree-comfy.git"
     "https://github.com/crystian/comfyui-crystools.git"
+    "https://github.com/kijai/ComfyUI-Florence2.git"
 )
 
 WORKFLOWS=(
