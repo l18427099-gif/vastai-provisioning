@@ -50,6 +50,8 @@ UNET_MODELS=(
 
 LORA_MODELS=(
     "https://civitai.com/api/download/models/2080589"
+    "https://civitai.com/api/download/models/1311180"
+    "https://civitai.com/api/download/models/1182697"
 )
 
 VAE_MODELS=(
