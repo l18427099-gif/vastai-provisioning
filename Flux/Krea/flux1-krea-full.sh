@@ -21,6 +21,7 @@ NODES=(
     "https://github.com/rgthree/rgthree-comfy.git"
     "https://github.com/crystian/comfyui-crystools.git"
     "https://github.com/kijai/ComfyUI-Florence2.git"
+    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git"
 )
 
 WORKFLOWS=(
