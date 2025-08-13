@@ -66,6 +66,9 @@ VAE_MODELS=(
 )
 
 ESRGAN_MODELS=(
+    "https://civitai.com/api/download/models/1530087"
+    "https://civitai.com/api/download/models/125843"
+    "https://huggingface.co/Kim2091/UltraSharpV2/resolve/main/4x-UltraSharpV2.pth"
 )
 
 CONTROLNET_MODELS=(
