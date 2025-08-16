@@ -67,6 +67,10 @@ VAE_MODELS=(
 )
 
 ESRGAN_MODELS=(
+    
+)
+
+UPSCALE_MODELS=(
     "https://civitai.com/api/download/models/1530087"
     "https://civitai.com/api/download/models/125843"
     "https://huggingface.co/Kim2091/UltraSharpV2/resolve/main/4x-UltraSharpV2.pth"
@@ -112,6 +116,9 @@ function provisioning_start() {
     provisioning_get_files \
         "${COMFYUI_DIR}/user/default/workflows" \
         "${WORKFLOWS[@]}"
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/upscale_models" \
+        "${UPSCALE_MODELS[@]}"
     provisioning_print_end
 }
 
