@@ -30,6 +30,7 @@ WORKFLOWS=(
 
 CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/973878"
+    "https://civitai.com/api/download/models/1787120"
 )
 
 CLIP_MODELS=(
