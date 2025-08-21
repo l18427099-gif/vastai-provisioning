@@ -29,7 +29,7 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/973878?"
+    "https://civitai.com/api/download/models/973878"
 )
 
 CLIP_MODELS=(
@@ -51,7 +51,7 @@ LORA_MODELS=(
 )
 
 VAE_MODELS=(
-    "https://civitai.com/api/download/models/973878?type=VAE&"
+    "https://civitai.com/api/download/models/973878?type=VAE"
 )
 
 ESRGAN_MODELS=(
@@ -204,12 +204,21 @@ function provisioning_has_valid_civitai_token() {
 function provisioning_download() {
     if [[ -n $HF_TOKEN && $1 =~ ^https://([a-zA-Z0-9_-]+\.)?huggingface\.co(/|$|\?) ]]; then
         auth_token="$HF_TOKEN"
-        wget --header="Authorization: Bearer $auth_token" -nc --content-disposition --show-progress -e dotbytes="${3:-4M}" -P "$2" "$1"
+        wget --header="Authorization: Bearer $auth_token" \
+             -nc --content-disposition --show-progress \
+             -e dotbytes="${3:-4M}" -P "$2" "$1"
     elif [[ -n $CIVITAI_TOKEN && $1 =~ ^https://([a-zA-Z0-9_-]+\.)?civitai\.com(/|$|\?) ]]; then
         auth_token="$CIVITAI_TOKEN"
-        wget -nc --content-disposition --show-progress -e dotbytes="${3:-4M}" -P "$2" "$1token=$auth_token"
+        if [[ "$1" == *\?* ]]; then
+            url="$1&token=$auth_token"
+        else
+            url="$1?token=$auth_token"
+        fi
+        wget -nc --content-disposition --show-progress \
+             -e dotbytes="${3:-4M}" -P "$2" "$url"
     else
-        wget -nc --content-disposition --show-progress -e dotbytes="${3:-4M}" -P "$2" "$1"
+        wget -nc --content-disposition --show-progress \
+             -e dotbytes="${3:-4M}" -P "$2" "$1"
     fi
 }
 
