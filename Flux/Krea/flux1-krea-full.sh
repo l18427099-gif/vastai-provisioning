@@ -11,8 +11,8 @@ APT_PACKAGES=(
 )
 
 PIP_PACKAGES=(
-    #"package-1"
-    #"package-2"
+    "flash_attn"
+    "triton"
 )
 
 NODES=(
@@ -22,6 +22,7 @@ NODES=(
     "https://github.com/crystian/comfyui-crystools.git"
     "https://github.com/kijai/ComfyUI-Florence2.git"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git"
+    "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler.git"
 )
 
 WORKFLOWS=(
