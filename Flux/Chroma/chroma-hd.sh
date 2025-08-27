@@ -45,6 +45,8 @@ DIFFUSION_MODELS=(
 )
 
 UNET_MODELS=(
+    "https://civitai.com/api/download/models/2145589"
+    "https://civitai.com/api/download/models/2127969"
 )
 
 LORA_MODELS=(
