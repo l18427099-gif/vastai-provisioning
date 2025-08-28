@@ -23,6 +23,7 @@ NODES=(
     "https://github.com/kijai/ComfyUI-Florence2.git"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git"
     "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler.git"
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git"
 )
 
 WORKFLOWS=(
@@ -30,6 +31,7 @@ WORKFLOWS=(
     "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Flux/Workflow/FluxDev_Checkpoint_Lora.json"
     "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Flux/Workflow/FluxDev_DifussionModel_Lora.json"
     "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Flux/Workflow/FluxDev_Lora_Upscale.json"
+    "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Flux/Workflow/Flux%20Krea%20Ultra%20Real%20by%20Mad%20Pony%20Interactive.json"
 )
 
 CHECKPOINT_MODELS=(
