@@ -24,6 +24,7 @@ NODES=(
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git"
     "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler.git"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git"
+    "https://github.com/kijai/ComfyUI-KJNodes.git"
 )
 
 WORKFLOWS=(
