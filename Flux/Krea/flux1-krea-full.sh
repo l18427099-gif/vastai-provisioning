@@ -25,6 +25,9 @@ NODES=(
     "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler.git"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git"
     "https://github.com/kijai/ComfyUI-KJNodes.git"
+    "https://github.com/ltdrdata/ComfyUI-Impact-Pack.git"
+    "https://github.com/sipherxyz/comfyui-art-venture.git"
+    "https://github.com/yolain/ComfyUI-Easy-Use.git"
 )
 
 WORKFLOWS=(
@@ -80,6 +83,7 @@ UPSCALE_MODELS=(
     "https://civitai.com/api/download/models/1530087"
     "https://civitai.com/api/download/models/125843"
     "https://huggingface.co/Kim2091/UltraSharpV2/resolve/main/4x-UltraSharpV2.pth"
+    "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x_NMKD-Siax_200k.pth"
 )
 
 CONTROLNET_MODELS=(
