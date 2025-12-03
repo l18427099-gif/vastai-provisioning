@@ -37,6 +37,7 @@ WORKFLOWS=(
     "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Flux/Workflow/FluxDev_Lora_Upscale.json"
     "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Flux/Workflow/Flux%20Krea%20Ultra%20Real%20by%20Mad%20Pony%20Interactive.json"
     "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/templates/image_z_image_turbo.json"
+    "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Z-Image/Workflow/z-image-turbo-4stages.json"
 )
 
 CHECKPOINT_MODELS=(
