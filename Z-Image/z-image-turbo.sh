@@ -36,6 +36,7 @@ WORKFLOWS=(
     "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Flux/Workflow/FluxDev_DifussionModel_Lora.json"
     "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Flux/Workflow/FluxDev_Lora_Upscale.json"
     "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Flux/Workflow/Flux%20Krea%20Ultra%20Real%20by%20Mad%20Pony%20Interactive.json"
+    "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/templates/image_z_image_turbo.json"
 )
 
 CHECKPOINT_MODELS=(
@@ -58,16 +59,7 @@ UNET_MODELS=(
 )
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/2080589"
-    "https://civitai.com/api/download/models/1311180"
-    "https://civitai.com/api/download/models/1182697"
-    "https://civitai.com/api/download/models/2092600"
-    "https://civitai.com/api/download/models/1881976"
-    "https://civitai.com/api/download/models/857446"
-    "https://civitai.com/api/download/models/1596082"
-    "https://civitai.com/api/download/models/1095908"
-    "https://civitai.com/api/download/models/993468"
-    "https://civitai.com/api/download/models/981081"
+    "https://civitai.com/api/download/models/2452071"
 )
 
 VAE_MODELS=(
