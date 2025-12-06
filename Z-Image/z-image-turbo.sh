@@ -61,6 +61,8 @@ UNET_MODELS=(
 
 LORA_MODELS=(
     "https://civitai.com/api/download/models/2452071"
+    "https://civitai.com/api/download/models/2470249" #https://civitai.com/models/2185386/z-schlongs-uncut-flaccid-penis
+    "https://civitai.com/api/download/models/2457383" #https://civitai.com/models/2182401/zpenis-realistic-penis-helper-z-image-lora
 )
 
 VAE_MODELS=(
