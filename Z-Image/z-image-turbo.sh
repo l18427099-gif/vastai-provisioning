@@ -39,6 +39,8 @@ WORKFLOWS=(
     "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/templates/image_z_image_turbo.json"
     "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Z-Image/Workflow/z-image-turbo-4stages.json"
     "https://raw.githubusercontent.com/martin-rizzo/AmazingZImageWorkflow/refs/heads/master/amazing_zimage-SAFETENSORS.json"
+    "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Z-Image/Workflow/Hung%20Twinks%20WF.json"
+    "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Z-Image/Workflow/z-image-turbo-4stages.json" #https://civitai.com/models/2225814/z-image-turbo-boosted-one-click-ultra-clean-images-seedvr2-flashvsr-face-upscale-qwen-vl?modelVersionId=2505789
 )
 
 CHECKPOINT_MODELS=(
@@ -64,6 +66,12 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/2452071"
     "https://civitai.com/api/download/models/2470249" #https://civitai.com/models/2185386/z-schlongs-uncut-flaccid-penis
     "https://civitai.com/api/download/models/2457383" #https://civitai.com/models/2182401/zpenis-realistic-penis-helper-z-image-lora
+    "https://civitai.com/api/download/models/2500084" #https://civitai.com/models/2209366/z-image-hung-twinks
+    "https://civitai.com/api/download/models/2500084 #https://civitai.com/models/2220721/penis-hung-twinks-zit
+    "https://civitai.com/api/download/models/2491744" #https://civitai.com/models/2213166/anti-plastic-or-the-analog-texture-engine?modelVersionId=2491744
+    "https://civitai.com/api/download/models/2490572" #https://civitai.com/models/2212121/olympus-ultrareal?modelVersionId=2490572
+    
+    
 )
 
 VAE_MODELS=(
