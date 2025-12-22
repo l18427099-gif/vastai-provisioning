@@ -67,7 +67,7 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/2470249" #https://civitai.com/models/2185386/z-schlongs-uncut-flaccid-penis
     "https://civitai.com/api/download/models/2457383" #https://civitai.com/models/2182401/zpenis-realistic-penis-helper-z-image-lora
     "https://civitai.com/api/download/models/2500084" #https://civitai.com/models/2209366/z-image-hung-twinks
-    "https://civitai.com/api/download/models/2500084 #https://civitai.com/models/2220721/penis-hung-twinks-zit
+    "https://civitai.com/api/download/models/2500084" #https://civitai.com/models/2220721/penis-hung-twinks-zit
     "https://civitai.com/api/download/models/2491744" #https://civitai.com/models/2213166/anti-plastic-or-the-analog-texture-engine?modelVersionId=2491744
     "https://civitai.com/api/download/models/2490572" #https://civitai.com/models/2212121/olympus-ultrareal?modelVersionId=2490572
     
