@@ -13,6 +13,7 @@ APT_PACKAGES=(
 PIP_PACKAGES=(
     "flash_attn"
     "triton"
+    "transformers"
 )
 
 NODES=(
@@ -40,7 +41,7 @@ WORKFLOWS=(
     "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Z-Image/Workflow/z-image-turbo-4stages.json"
     "https://raw.githubusercontent.com/martin-rizzo/AmazingZImageWorkflow/refs/heads/master/amazing_zimage-SAFETENSORS.json"
     "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Z-Image/Workflow/Hung%20Twinks%20WF.json"
-    "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Z-Image/Workflow/z-image-turbo-4stages.json" #https://civitai.com/models/2225814/z-image-turbo-boosted-one-click-ultra-clean-images-seedvr2-flashvsr-face-upscale-qwen-vl?modelVersionId=2505789
+    "https://raw.githubusercontent.com/l18427099-gif/vastai-provisioning/refs/heads/main/Z-Image/Workflow/Z-Image-Turbo-Boosted.json"
 )
 
 CHECKPOINT_MODELS=(
