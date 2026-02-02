@@ -74,6 +74,7 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/2491744" #https://civitai.com/models/2213166/anti-plastic-or-the-analog-texture-engine?modelVersionId=2491744
     "https://civitai.com/api/download/models/2490572" #https://civitai.com/models/2212121/olympus-ultrareal?modelVersionId=2490572
     "https://civitai.com/api/download/models/2569931" #https://civitai.com/models/2283423/amateur-studio
+    "https://civitai.com/api/download/models/2617751" #https://civitai.com/models/2268008?modelVersionId=2617751
     
 )
 
