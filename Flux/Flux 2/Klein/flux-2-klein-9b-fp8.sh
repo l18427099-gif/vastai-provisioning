@@ -11,9 +11,9 @@ APT_PACKAGES=(
 )
 
 PIP_PACKAGES=(
-    "flash_attn"
-    "triton"
-    "transformers"
+    #"flash_attn"
+    #"triton"
+    #"transformers"
 )
 
 NODES=(
@@ -29,7 +29,7 @@ NODES=(
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack.git"
     "https://github.com/sipherxyz/comfyui-art-venture.git"
     "https://github.com/yolain/ComfyUI-Easy-Use.git"
-    "https://github.com/1038lab/ComfyUI-QwenVL.git"
+    #"https://github.com/1038lab/ComfyUI-QwenVL.git"
     "https://github.com/ClownsharkBatwing/RES4LYF/"
 )
 
