@@ -13,7 +13,7 @@ APT_PACKAGES=(
 PIP_PACKAGES=(
     "flash_attn"
     "triton"
-    #"transformers"
+    "transformers"
 )
 
 NODES=(
